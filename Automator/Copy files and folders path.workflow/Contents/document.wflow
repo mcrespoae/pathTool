@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>444.7</string>
+	<key>AMApplicationVersion</key>
+	<string>2.8</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Copy to Clipboard.action</string>
+				<key>ActionName</key>
+				<string>Copy to Clipboard</string>
+				<key>ActionParameters</key>
+				<dict/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.CopyToClipboard</string>
+				<key>CFBundleVersion</key>
+				<string>1.2.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMCopyToClipboardAction</string>
+				<key>InputUUID</key>
+				<string>8542A89B-E987-4659-94F5-D40762D3EBFF</string>
+				<key>Keywords</key>
+				<array>
+					<string>Copy</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>56070573-48EA-4B93-9742-2773A38B5A7E</string>
+				<key>UUID</key>
+				<string>6DBC1BFC-6A56-41AE-831A-B04A805B5EB2</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>arguments</key>
+				<dict/>
+			</dict>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Contents of Clipboard.action</string>
+				<key>ActionName</key>
+				<string>Get Contents of Clipboard</string>
+				<key>ActionParameters</key>
+				<dict/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.GetContentsofClipboard</string>
+				<key>CFBundleVersion</key>
+				<string>1.2.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMGetContentsOfClipboardAction</string>
+				<key>IgnoresInput</key>
+				<true/>
+				<key>InputUUID</key>
+				<string>570EA988-3246-42A6-8580-2E9141580C23</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>DE466582-6DCB-415C-9706-15BC442AF352</string>
+				<key>UUID</key>
+				<string>6B7F5C86-0AD2-40B4-B662-B4037707BED5</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>arguments</key>
+				<dict/>
+			</dict>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>--Script "Copy the path from files or folders to Skype V1.4"--Example of OSX NAS path--/Volumes/BCNMEDIAPROD/80_Client/3M/US0270787 --/Volumes/BCNAUDIOPROD/02_Client/3M--Example of OSX old server path--/Volumes/Media/_PROJECTS/ISL_USE_THIS/ --M--/Volumes/Quotes/A_L/ --Q--/Volumes/BCNJOBS/A_L/ --J--Example of Windows path--Z:\zz_test\Split--M:\_PROJECTS\ISL_USE_THIS\01_DELIVERABLES--Q:\A_L\L'Oreal_EL--J:\A_L\Amazon\--\\10.10.210.75\bcnmediaprod\80_Client\ --The last path happens when Z is not installedon run {input, parameters}		--We take the path from the clipboard and save it to myText	set myText to (input as «class utf8») --We copy the clipboard as utf8		set myText to my searchReplace(myText, "", "") --We delete \n	set myText to my searchReplace(myText, "", "") --We delete \r			if (offset of "/Volumes/" in myText) = 0 then --We check if the myText is a real OSX server path looking for the string /Volumes/ inside the path		if ((offset of "Z:" in myText) = 0 and (offset of "10.10.210.75" in myText) = 0 and (offset of "M:" in myText) = 0 and (offset of "Q:" in myText) = 0 and (offset of "J:" in myText) = 0) then --We check if the myText is a real Windows server path looking for the string Z: Q: M: and J: inside the path. We also look for 10.10.210.75 because somtimes the Windows paths don't have a letter assigned			display dialog "This is not a valid path" with icon caution giving up after 2 buttons ("OK")			return		else			--This is a valid Windows server path			set findIt to "Z:\\"			set replaceIt to "/Volumes/BCNMEDIAPROD/"			set myText to my searchReplace(myText, findIt, replaceIt)						set findIt to "\\\\10.10.210.75\\bcnmediaprod\\"			set replaceIt to "/Volumes/BCNMEDIAPROD/"			set myText to my searchReplace(myText, findIt, replaceIt)						set findIt to "Q:\\"			set replaceIt to "/Volumes/Quotes/"			set myText to my searchReplace(myText, findIt, replaceIt)						set findIt to "J:\\"			set replaceIt to "/Volumes/BCNJOBS/"			set myText to my searchReplace(myText, findIt, replaceIt)						set findIt to "M:\\"			set replaceIt to "/Volumes/Media/"			set myText to my searchReplace(myText, findIt, replaceIt)									set findIt to "\\"			set replaceIt to "/"			set myText to my searchReplace(myText, findIt, replaceIt)						my openPath(myText)		end if			else --This is a valid OSX server path				if (offset of "BCNAUDIOPROD" in myText) &gt; 0 then --This is a valid OSX NAS Audio path so we copy it to paste it into Skype					set the clipboard to myText			tell application "Skype" to activate			return		end if				set myText to my searchReplace(myText, "&lt;", "")		set myText to my searchReplace(myText, "&gt;.", "")		set myText to my searchReplace(myText, "&gt;", "")		--set myText to characters 10 thru -1 of myText as string --We delete the /Volumes/ Not necessary because we change it to nothing				set findIt to "/Volumes/"		set replaceIt to ""		set myText to my searchReplace(myText, findIt, replaceIt)				set findIt to "BCNMEDIAPROD"		set replaceIt to "Z:"		set myText to my searchReplace(myText, findIt, replaceIt)				set findIt to "BCNAUDIOPROD"		set replaceIt to "Z:"		set myText to my searchReplace(myText, findIt, replaceIt)				set findIt to "Media"		set replaceIt to "M:"		set myText to my searchReplace(myText, findIt, replaceIt)				set findIt to "BCNJOBS"		set replaceIt to "J:"		set myText to my searchReplace(myText, findIt, replaceIt)				set findIt to "Quotes"		set replaceIt to "Q:"		set myText to my searchReplace(myText, findIt, replaceIt)				set findIt to "/"		set replaceIt to "\\"		set mylocation to my searchReplace(myText, findIt, replaceIt)				--We copy the newly created path to the clipboard		set the clipboard to mylocation				tell application "Skype" to activate		return	end if			end runon searchReplace(theText, SearchString, ReplaceString)		set OldDelims to AppleScript's text item delimiters	set AppleScript's text item delimiters to SearchString	set newText to text items of theText	set AppleScript's text item delimiters to ReplaceString	set newText to newText as text	set AppleScript's text item delimiters to OldDelims		return newTextend searchReplaceon openPath(myText)	--We convert myText into a valid path format and we open a new finder window with the new path	set flag to 0	set thePath to POSIX path of myText --We change theText to a valid macOS path	repeat while flag = 0 --We use the flag as an exit for the loop			tell application "Finder"			try				POSIX file thePath as alias --We check if thePath works, if it doesn't exists, it will go to the error exception				--If we reached this point, the path works fine so we open it				set flag to 1 --If we reach this point, the finder could open the path so we exit the loop				activate "Finder"				tell application "System Events"					keystroke "t" using {command down} --We open a new tab					delay 0.5 --We wait until the tab is open				end tell				set target of front window to (thePath as POSIX file)							on error --If the path can't be opened it is probably because it finished with \n, \r or other type of weird characters so we delete them until we can open the path				if (length of thePath) &lt; 21 then --If we have already cut too many characters we stop the script (we have added /Volumes/BCNMEDIAPROD/					display dialog "This is not a valid path" with icon caution giving up after 2 buttons ("OK")					return				end if				set thePath to text 1 thru -2 of thePath --We delete the last character until it can be opened			end try		end tell	end repeat		tell application "Finder" to activate	tell application "Finder" to select front Finder window	return	end openPath</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>B114FE91-4C48-48CD-B926-5549EA4B6D80</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>65A4B6DA-C13F-498D-91D5-63044BFA78B6</string>
+				<key>UUID</key>
+				<string>E81AD543-95AD-4C14-AC0C-EB386C95CDB4</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>769.000000:448.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>6132B26A-A8FB-4645-8A71-CA65FD0E52A5</key>
+		<dict>
+			<key>from</key>
+			<string>6DBC1BFC-6A56-41AE-831A-B04A805B5EB2 - 6DBC1BFC-6A56-41AE-831A-B04A805B5EB2</string>
+			<key>to</key>
+			<string>6B7F5C86-0AD2-40B4-B662-B4037707BED5 - 6B7F5C86-0AD2-40B4-B662-B4037707BED5</string>
+		</dict>
+		<key>81BA13C0-CCC7-4CD3-B237-91AAA90CAABD</key>
+		<dict>
+			<key>from</key>
+			<string>6B7F5C86-0AD2-40B4-B662-B4037707BED5 - 6B7F5C86-0AD2-40B4-B662-B4037707BED5</string>
+			<key>to</key>
+			<string>E81AD543-95AD-4C14-AC0C-EB386C95CDB4 - E81AD543-95AD-4C14-AC0C-EB386C95CDB4</string>
+		</dict>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>serviceApplicationBundleID</key>
+		<string>com.apple.finder</string>
+		<key>serviceApplicationPath</key>
+		<string>/System/Library/CoreServices/Finder.app</string>
+		<key>serviceInputTypeIdentifier</key>
+		<string>com.apple.Automator.fileSystemObject</string>
+		<key>serviceOutputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceProcessesInput</key>
+		<integer>0</integer>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.servicesMenu</string>
+	</dict>
+</dict>
+</plist>
