@@ -4,6 +4,7 @@ Scripts to convert paths from Windows to MacOS and vice versa.
 ## Before you start
 *	Please, note that the audio scripts have been validated in **¡ macOS 10.13.6 and macOS 10.14.6**
 *	Note that you may be asked to allow Automator or any other app you may use in the accessibility menu. To do so, open Settings, Security & Privacy and click on Privacy and then in Accessibility. Click the + button an add the Automator and Pro Tools app. You will have to allow more apps (Skype, Chrome, etc.)
+* You will have to edit the paths inside the scripts to meet you needs.
 
 ## How to install the scripts
 * Download the script you want to install fomr the *Automator* folder.
